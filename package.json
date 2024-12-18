@@ -1,0 +1,11 @@
+{
+    "name": "static-web-app",
+    "version": "1.0.0",
+    "description": "A simple static web app",
+    "main": "index.html",
+    "scripts": {
+      "build": "echo 'no build required'"
+    },
+    "author": "Your Name",
+    "license": "MIT"
+  }
