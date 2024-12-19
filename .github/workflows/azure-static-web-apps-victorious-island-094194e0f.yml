@@ -45,6 +45,7 @@ jobs:
           app_location: "/" # This is where your static files are located in your repository.
           api_location: "" # Not used if you don't have an API.
           output_location: "/" # Not needed as files are already built.
+          skip_app_build: true
           github_id_token: ${{ steps.idtoken.outputs.result }}
 
 
